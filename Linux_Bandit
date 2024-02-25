@@ -4,3 +4,8 @@ Lvl 2: the unconventional file names can be opened using ./
 Lvl 3: files with spaces in it can be opened using the "double quotes"
 Lvl 4: hidden files can be seen using ls -a
 Lvl 5: idk i just read every file until i found the correct one. not much to learn i guess
+Lvl 6: find inhere/ -type f -size 1033c ! -executable
+        'find inhere/'  searches inside the directory
+        '-type f ' specifies that it is looking for files
+        '-size 1033c' specifies that it should 1033 bytes (c stands for bytes???)
+        '! -executabe' not exectubale
