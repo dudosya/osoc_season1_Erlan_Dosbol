@@ -1,1 +1,3 @@
 Lvl 0: ssh bandit0@bandit.labs.overthewire.org -p 2220
+Lvl 1: ls and cat commands were used and then the copy pasted password was used for the next level
+
