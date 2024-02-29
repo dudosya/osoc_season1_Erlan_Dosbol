@@ -28,6 +28,11 @@ Lvl 9: sort data.txt | uniq -u
         '|' pipe
         'uniq -u' filters out all the not unique ones
 
+Lvl 10. strings data.txt | grep '='
+        'strings data.txt' shows the human readable strings in the data.txt
+        '|' pipe
+        'grep '=' look for lines with '=' in it
+
         
 
 
