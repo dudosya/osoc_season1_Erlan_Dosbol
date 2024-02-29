@@ -21,6 +21,13 @@ Lvl 7: find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
 cat path_that_we_got_from_prev_line
 
 Lvl 8: grep "millionth" data.txt
+
+Lvl 9: sort data.txt | uniq -u
+        Piping (|) is used to pass the output of one command as input to the next command
+        'sort data.txt' alphabetically sorts lines in data.txt
+        '|' pipe
+        'uniq -u' filters out all the not unique ones
+
         
 
 
