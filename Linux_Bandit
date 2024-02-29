@@ -4,11 +4,13 @@ Lvl 2: the unconventional file names can be opened using ./
 Lvl 3: files with spaces in it can be opened using the "double quotes"
 Lvl 4: hidden files can be seen using ls -a
 Lvl 5: idk i just read every file until i found the correct one. not much to learn i guess
+
 Lvl 6: find inhere/ -type f -size 1033c ! -executable
         'find inhere/'  searches inside the directory
         '-type f ' specifies that it is looking for files
         '-size 1033c' specifies that it should 1033 bytes (c stands for bytes???)
         '! -executabe' not exectubale
+
 Lvl 7: find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
         'find /' starts search from the root of the server
         '-user bandit7' searches for files of this particular user
@@ -17,5 +19,8 @@ Lvl 7: find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
         '2>/dev/null' it hides all the unnecesarry warnings and error
         the output of this command line is a path to the file. we copy paste the file path and use the following
 cat path_that_we_got_from_prev_line
+
+Lvl 8: grep "millionth" data.txt
+        
 
 
